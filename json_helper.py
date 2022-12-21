@@ -23,7 +23,7 @@ for code in codes:
                 "countryArea": ""
             }
 
-            #print(result)
+            print(result)
         else: print(code)
     else:
         print("Failed to retrieve data. Status code:", response.status_code)
